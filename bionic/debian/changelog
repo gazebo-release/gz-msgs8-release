@@ -1,3 +1,9 @@
+ignition-msgs8 (8.1.0-1~bionic) bionic; urgency=medium
+
+  * ignition-msgs8 8.1.0-1 release
+
+ -- Nate Koenig <nate@openrobotics.org>  Tue, 02 Nov 2022 08:17:23 -0700
+
 ignition-msgs8 (8.0.0-1~bionic) bionic; urgency=medium
 
   * ignition-msgs8 8.0.0-1 release
