@@ -1,3 +1,9 @@
+ignition-msgs8 (8.3.0-1~bionic) bionic; urgency=medium
+
+  * ignition-msgs8 8.3.0-1 release
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Thu, 24 Mar 2022 17:06:44 -0700
+
 ignition-msgs8 (8.2.0-1~bionic) bionic; urgency=medium
 
   * ignition-msgs8 8.2.0-1 release
