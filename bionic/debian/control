@@ -1,1 +1,51 @@
-../../ubuntu/debian/control
+Source: ignition-msgs8
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: optional
+Build-Depends: cmake,
+               pkg-config,
+               debhelper (>= 11),
+               doxygen,
+               libprotoc-dev,
+               libprotobuf-dev (>= 2.3.0),
+               libtinyxml2-dev,
+               libignition-cmake2-dev (>= 2.8.0),
+               libignition-math6-dev (>= 6.5.0),
+               libignition-tools-dev,
+               protobuf-compiler,
+Vcs-Browser: https://github.com/ignitionrobotics/ignition-msgs
+Vcs-Git: https://github.com/ignition-release/ign_msgs5-release
+Standards-Version: 4.5.1
+Homepage: http://ignitionrobotics.org/
+
+Package: libignition-msgs8
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Set of message definitions used by robotics apps - Shared library
+ Ignition msgs is a component in the Ignition framework, a set of
+ librariesdesigned to rapidly develop robot applications. The library
+ defines common protobuf messages used by the robotics community.
+ .
+ This package contains the main message library.
+
+Package: libignition-msgs8-dev
+Architecture: any
+Section: libdevel
+Depends: libprotobuf-dev (>= 2.3.0),
+         libprotoc-dev,
+         protobuf-compiler,
+         libtinyxml2-dev,
+         libignition-cmake2-dev (>= 2.8.0),
+         libignition-math6-dev (>= 6.5.0),
+         libignition-msgs8 (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Set of message definitions used by robotics apps - Dev files
+ Ignition msgs is a component in the Ignition framework, a set of
+ librariesdesigned to rapidly develop robot applications. The library
+ defines common protobuf messages used by the robotics community.
+ .
+ This package contains the headers and other tools for development.
