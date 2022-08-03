@@ -1,3 +1,9 @@
+ignition-msgs8 (8.6.0-1~sid) sid; urgency=medium
+
+  * ignition-msgs8 8.6.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Tue, 02 Aug 2022 20:00:50 -0700
+
 ignition-msgs8 (8.5.0-1~sid) sid; urgency=medium
 
   * ignition-msgs8 8.5.0-1 release
