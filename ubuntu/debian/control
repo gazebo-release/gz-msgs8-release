@@ -53,3 +53,19 @@ Description: Set of message definitions used by robotics apps - Dev files
  defines common protobuf messages used by the robotics community.
  .
  This package contains the headers and other tools for development.
+
+Package: libgz-msgs8
+Depends: libignition-msgs8, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-msgs8-dev
+Depends: libignition-msgs8-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
