@@ -1,3 +1,9 @@
+ignition-msgs8 (8.6.0-3~focal) focal; urgency=medium
+
+  * ignition-msgs8 8.6.0-3 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Tue, 16 Aug 2022 17:08:47 -0700
+
 ignition-msgs8 (8.6.0-2~focal) focal; urgency=medium
 
   * ignition-msgs8 8.6.0-2 release
