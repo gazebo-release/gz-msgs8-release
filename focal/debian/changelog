@@ -1,3 +1,9 @@
+ignition-msgs8 (8.7.0~pre2-1~focal) focal; urgency=medium
+
+  * ignition-msgs8 8.7.0~pre2-1 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Fri, 26 Aug 2022 12:39:19 -0700
+
 ignition-msgs8 (8.7.0~pre1-1~focal) focal; urgency=medium
 
   * ignition-msgs8 8.7.0~pre1-1 release
