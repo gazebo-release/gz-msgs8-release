@@ -1,3 +1,9 @@
+ignition-msgs8 (8.7.1-1~focal) focal; urgency=medium
+
+  * ignition-msgs8 8.7.1-1 release
+
+ -- Carlos Agüero <caguero@osrfoundation.org>  Tue, 17 Feb 2026 18:36:46 +0000
+
 ignition-msgs8 (8.7.0-1~focal) focal; urgency=medium
 
   * ignition-msgs8 8.7.0-1 release
