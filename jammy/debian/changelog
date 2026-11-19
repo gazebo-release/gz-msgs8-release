@@ -1,3 +1,9 @@
+ignition-msgs8 (8.7.2-1~jammy) jammy; urgency=medium
+
+  * ignition-msgs8 8.7.2-1 release
+
+ -- Carlos Aguero <caguero@openrobotics.org>  Thu, 19 Nov 2026 09:32:46 +0100
+
 ignition-msgs8 (8.7.1-1~jammy) jammy; urgency=medium
 
   * ignition-msgs8 8.7.1-1 release
